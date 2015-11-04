@@ -25,8 +25,8 @@ func (s *scope) find(symbol string) *scope {
 
 var global scope
 
-// lambda binding
-type lambda struct {
+// proc
+type proc struct {
 	params interface{}
 	body   interface{}
 	scope  *scope
